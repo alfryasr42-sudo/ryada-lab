@@ -30,12 +30,13 @@ jobs:
 
       - name: Package unsigned IPA
         run: |
+          mkdir -p build/ios/ipa
+          cd build/ios/iphoneos
           mkdir -p Payload
-          cp -R build/ios/iphoneos/Runner.app Payload/
-          zip -r RiadaLab-unsigned.ipa Payload
+          cp -r Runner.app Payload/
+          zip -r ../ipa/RiadaLab-unsigned.ipa Payload
 
       - uses: actions/upload-artifact@v4
         with:
           name: RiadaLab-unsigned-ipa
-          path: RiadaLab-unsigned.ipa
-          retention-days: 7
+          path: build/ios/ipa/RiadaLab-unsigned.ipa
