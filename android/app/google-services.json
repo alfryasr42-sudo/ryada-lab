@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "905866248152",
+    "project_id": "riyadalab-dfb30",
+    "storage_bucket": "riyadalab-dfb30.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905866248152:android:2a9474d32073ea1d3b3cad",
+        "android_client_info": {
+          "package_name": "com.riyada.lab.riada_lab"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCh4bhpc8yx4fusKXX4GIVwLjUuHDyZqe0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
